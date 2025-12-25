@@ -1,1 +1,0 @@
-"""Aegis: A Flower / PyTorch app."""
