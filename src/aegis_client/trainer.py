@@ -14,4 +14,4 @@ def train_local(model, epochs=1):
         loss = criterion(model(x), y)
         loss.backward()
         optimizer.step()
-    return model.state_dict()
+    return model.state_dict(), loss.item()

@@ -13,3 +13,8 @@ class AegisDashboard(Screen):
         yield DataTable(id="client-table")
         yield Log(id="main-log")
         yield Footer()
+    
+    def on_mount(self) -> None:
+        table = self.query_one("#client-table", DataTable)
+        table.add_columns("Client ID", "Status", "Last Update")
+        table.cursor_type = "row"
