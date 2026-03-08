@@ -1,3 +1,24 @@
-wandb/
-global_model_round_*
-*.json
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# PyTorch / Machine Learning
+*.pt
+*.pth
+data/
+logs/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store

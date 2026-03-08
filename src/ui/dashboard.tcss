@@ -1,0 +1,29 @@
+Screen {
+    background: #0f172a;
+}
+
+#stats-container {
+    height: 5;
+    margin: 1;
+}
+
+.card {
+    width: 1fr;
+    border: tall $accent;
+    content-align: center middle;
+    background: #1e293b;
+    margin: 0 1;
+}
+
+DataTable {
+    height: 1fr;
+    border: solid #334155;
+    margin: 1;
+}
+
+Log {
+    height: 10;
+    border: double #475569;
+    margin: 1;
+    background: black;
+}

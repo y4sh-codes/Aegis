@@ -1,0 +1,6 @@
+torch
+textual
+fastapi
+uvicorn
+websockets
+python-dotenv
