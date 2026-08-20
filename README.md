@@ -4,7 +4,7 @@ Aegis-FL is a federated learning framework designed for real-time distributed tr
 
 ## 🏗️ Architecture Overview
 
-Aegis-FL utilizes a centralized aggregation server to orchestrate training across distributed nodes. The server manages global weights while clients handle local data processing and stochastic gradient descent (SGD).
+Aegis utilizes a centralized aggregation server to orchestrate training across distributed nodes. The server manages global weights while clients handle local data processing and stochastic gradient descent (SGD).
 
 ### The Federated Cycle
 
