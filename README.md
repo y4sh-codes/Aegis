@@ -1,4 +1,4 @@
-# Aegis-FL 
+# Aegis-FL
 
 Aegis-FL is a federated learning framework designed for real-time distributed training with high visibility. It allows multiple clients to collaboratively train a global model without sharing their private datasets, all managed through a centralized Terminal User Interface (TUI) dashboard.
 
